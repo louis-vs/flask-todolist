@@ -33,7 +33,8 @@ If you prefer to run it directly on your local machine, I suggest using
 [venv](https://docs.python.org/3/library/venv.html).
 
     pip install -r requirements.txt
-    FLASK_APP=todolist.py flask run
+    flash db upgrade
+    flask run
 
 To add some 'play' data you can run
 
